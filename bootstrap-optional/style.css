@@ -1,0 +1,46 @@
+body {
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 70px;
+    display: flex;
+    align-content: center;
+    z-index: 10;
+    position: relative;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+}
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.row {
+    background-color: hsl(0, 0%, 98%);
+    cursor: pointer;
+    color: rgb(43, 41, 41);
+    margin-bottom: 20px;
+}
+
+.col-md-4 .offset-md-2 {
+    height: 270px;
+    width: 350px;
+}
+
+.col-md-4 img {
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.col-md-4 img:hover {
+    transform: scale(1.05);
+}
+
+.col-md-4 .third-picture {
+    margin: 20px 200px 20px 10px;
+}
